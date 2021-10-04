@@ -54,7 +54,7 @@
             <section>
                 <h4>Proposed steps to take</h4>
                 <ol>
-                    <li>Write backend function code in language of choice, prefer <i>Java</i></li>
+                    <li>Write backend function code in language of choice, prefer <i>Java</i> but other languages fine</li>
                     <li>Create lambda function on <i>AWS Lambda</i> from AWS console, upload zip of code</li>
                     <li>Create API thru <i>API Gateway</i>, make code response mappings</li>
                     <li>Write terraform infrastructure code that updates/creates lambda & api when run</li>
@@ -62,7 +62,9 @@
             </section>
             <section>
                 <h3>Rough outline of steps to be taken</h3>
-                <p>Choose language such as java/jscript/python to run, get correct function path 
+                <p>Choose language that the function was written in, such as <span class="language">Java</span>, <span class="language">Python</span>,
+                     <span class="language">NodeJS</span>
+                     get correct function path 
                     (should be <b>handleRequest</b> or something similar)</p>
                 <hr>
                 <p>Go to API Gateway, make a new <b> REST protocol API</b> and link the previous lambda function to it,
@@ -74,6 +76,7 @@
             </section> 
             <div>
                 <img src="/workflow.png" alt="Schematic diagram for end product">
+                <img src="/screenshots/example.png" alt="Schematic diagram for end product">
             </div>
 
         </main>
