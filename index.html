@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lab2 HTML Site</title>
+        <link rel="shortcut icon" href="https://static-cdn.jtvnw.net/badges/v1/a1dd5073-19c3-4911-8cb4-c464a7bc1510/1" type="image/png" />
+    </head>
+   
+    <body>
+        <header>
+            <h1>AWS Project First Brainstorm</h1>
+            <h2>Brainstorming how to make cool lambda functions and link to API Gateway, and making infrastructure through Terraform</h2>
+            <h3>Scheduled Date: 10/3/2021 2:00 PM</h3>
+            <nav>
+                <a href="https://aws.amazon.com/lambda/">Lambda</a> |
+                <a href="https://aws.amazon.com/api-gateway/">API Gateway</a> |
+                <a href="https://aws.amazon.com/iam/features/manage-roles/">IAM Roles</a> |
+                <a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs">Terraform</a>
+              </nav>
+        </header>
+        <main>
+            <section>
+                <h4>Attendees</h4>
+                <ul>
+                    <li>John Doe</li>
+                    <li>Jane Doe</li>
+                    <li>Johnathan Buck</li>
+                    <li>Janeathan Buck</li>
+                    <li>Lebronathan Jahmes</li>
+                    <li>Antonio Davis</li>
+                    <li>Brussell Eastbrook</li>
+                </ul>
+            </section>
+            <section>
+                <h5>Agenda/To do today</h5>
+                <ul>
+                    <li>Steps for project</li>
+                    <li>Basic schematic diagram</li>
+                    <li>Mess with zoom backgrounds</li>
+                </ul>
+                <h5>Unfinished from last time</h5>
+                <ul>
+                    <li>Making cool slack emojis</li>
+                    <li>Getting api keys made</li>
+                </ul>
+                <h5>New things to be talked about</h5>
+                <ul>
+                    <li>Asking how the weather is</li>
+                    <li>How's the wife and kids doing</li>
+                    <li>Did you see [some movie] over the holiday?</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Proposed steps to take</h4>
+                <ol>
+                    <li>Write backend function code in language of choice, prefer <i>Java</i></li>
+                    <li>Create lambda function on <i>AWS Lambda</i> from AWS console, upload zip of code</li>
+                    <li>Create API thru <i>API Gateway</i>, make code response mappings</li>
+                    <li>Write terraform infrastructure code that updates/creates lambda & api when run</li>
+                </ol>
+            </section>
+            <section>
+                <h3>Rough outline of steps to be taken</h3>
+                <p>Choose language such as java/jscript/python to run, get correct function path 
+                    (should be <b>handleRequest</b> or something similar)</p>
+                <hr>
+                <p>Go to API Gateway, make a new <b> REST protocol API</b> and link the previous lambda function to it,
+                     set up a usage plan and <em>must create a new API key for use</em>, then create 4xx,5xx responses</p>
+                <hr>
+                <p>Write terraform code to build infrastructure, reference modules in terraform code repository
+                     that will create and configure all aspects of what was previously done manually. 
+                     <strong> Be sure not to add unnecessary permissions/roles to function</strong></p>   
+            </section> 
+            <div>
+                <img src="/workflow.png" alt="Schematic diagram for end product">
+            </div>
+
+        </main>
+        
+       
+        
+        <footer>
+            ©Richard Zhou Fall 2021, Thank you for visiting
+            
+            <p>Fake Comp Name<br>
+                4242 Universe St.<br>
+                Cheap Rent, CA<br>
+                00001<br>
+                USA<br>
+            </p>
+        </footer>
+    </body>
+    
+</html>
