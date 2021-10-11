@@ -9,7 +9,7 @@
 - Person4
 
 Current Mood:
-- 
+- happy/sad/laugh/bad emojis
 What I worked on yesterday:
 - Some old issue1
 - Some old issue2
