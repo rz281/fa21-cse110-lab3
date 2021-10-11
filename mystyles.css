@@ -1,0 +1,28 @@
+/* Changes the background of CSS */
+
+body {
+    background-color: rgb(0, 74, 99);
+  }
+  
+h1 {
+    color: rgb(105, 105, 165);
+    margin-left: 20px;
+}
+p {
+    color: white;
+}
+li{
+    color: white
+}
+h2 {
+    color: rgb(182, 182, 182)
+}
+h3 {
+    color: rgb(182, 182, 182)
+}
+h4 {
+    color: rgb(182, 182, 182)
+}
+h5 {
+    color: rgb(182, 182, 182)
+}
