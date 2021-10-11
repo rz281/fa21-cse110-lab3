@@ -29,6 +29,7 @@ h4 {
 
 .px {
   width: 1500px;
+  height:550px;
   background-color: cadetblue;
 }
 .cm {
@@ -42,12 +43,16 @@ h4 {
 
 .vw {
   width: 10vw;
+  max-width:50cm;
+  min-width:2cm;
   background-color: chartreuse;
+  position:relative
 }
 
 .em {
   width: 10em;
   background-color: crimson;
+  position:static
 }
 .vh {
   height: 10vh;
@@ -60,4 +65,10 @@ h4 {
   border: 3px solid rgb(255, 255, 255);
   border-width: 20px;
   border-radius: 1pc;
+}
+button:hover {
+    color: rgb(255, 0, 0);
+  }
+button:active{
+    color: blue;
 }
