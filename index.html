@@ -4,6 +4,9 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Lab2 HTML Site</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="https://static-cdn.jtvnw.net/badges/v1/a1dd5073-19c3-4911-8cb4-c464a7bc1510/1" type="image/png" />
         <link rel="stylesheet" href="mystyles.css"> 
         <style>
@@ -28,7 +31,8 @@
             </nav>
         </header>
         <main>
-            <section>
+            <section style="display:flex; flex-direction: column; justify-content: center; align-items: center;">
+
                 <h4>Attendees</h4>
                 <ul>
                     <li>John Doe</li>
@@ -40,7 +44,7 @@
                     <li>Brussell Eastbrook</li>
                 </ul>
             </section>
-            <section>
+            <section style="display:grid; grid-template-columns: 100px 200px; column-gap: 10px; grid-column-start: 1;">
                 <h5>Agenda/To do today</h5>
                 <ul>
                     <li>Steps for project</li>

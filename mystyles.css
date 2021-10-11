@@ -72,3 +72,13 @@ button:hover {
 button:active{
     color: blue;
 }
+@media screen and (min-width: 30em) and (orientation: landscape) {
+    body {
+        padding: 1rem 3rem;
+      }
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
