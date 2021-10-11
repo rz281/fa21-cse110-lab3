@@ -14,12 +14,10 @@ p {
 li {
   color: white;
 }
-h2 {
-  color: rgb(182, 182, 182);
+h2,h3{
+  color: rgb(0, 0, 0);
 }
-h3 {
-  color: rgb(182, 182, 182);
-}
+
 h4 {
   color: rgb(182, 182, 182);
 }
@@ -78,7 +76,39 @@ button:active{
       }
     
 }
+*#thoughts{
+    color:darkviolet
+}
+#rough{
+    color:deeppink
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
+[class="testatr"]{
+    color:goldenrod;
+}
+h6 ~ p{
+    color:greenyellow
+}
+
+  
+  ul > li {
+    list-style-type:lower-greek;
+  }
+  li ul { 
+      list-style-type:lower-alpha
+  }
+
+  
+  li li {
+    list-style-type: lower-roman;
+  }
+  div.box{
+      background-color: indianred;
+  }
+  li:first-of-type + li {
+    color: rgb(255, 153, 0);
+  }
+  
 
