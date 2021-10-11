@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Lab2 HTML Site</title>
         <link rel="shortcut icon" href="https://static-cdn.jtvnw.net/badges/v1/a1dd5073-19c3-4911-8cb4-c464a7bc1510/1" type="image/png" />
-        <link rel="stylesheet" href="mystyle.css"> 
+        <link rel="stylesheet" href="mystyles.css"> 
     </head>
    
     <body>
@@ -18,7 +18,7 @@
                 <a href="https://aws.amazon.com/api-gateway/">API Gateway</a> |
                 <a href="https://aws.amazon.com/iam/features/manage-roles/">IAM Roles</a> |
                 <a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs">Terraform</a>
-              </nav>
+            </nav>
         </header>
         <main>
             <section>
@@ -79,49 +79,65 @@
                         <a href="https://www.youtube.com/watch?v=DSrg7hG-jV4">optional tutorial for lambda/api gateway linking</a>
                     </details>
             </section> 
-            <div>
-                <img src="https://blog.ilograph.com/img/fixing-aws-vod/original.png" alt="Schematic diagram for end product">
+            <div class="wrapper">
+                <div class="px">
+                    <img src="https://blog.ilograph.com/img/fixing-aws-vod/original.png" alt="Schematic diagram for end product">
+                </div>
 
-                <form>
-                    <fieldset>
-                      <legend>Choose preferred date for next meeting</legend>
-                  
-                      <input type="radio" id="mon" name="day">
-                      <label for="mon">Monday</label><br/>
-                  
-                      <input type="radio" id="tue" name="day">
-                      <label for="tue">Tuesday</label><br/>
-                  
-                      <input type="radio" id="wed" name="day">
-                      <label for="wed">Wednesday</label>
-                    </fieldset>
-                  </form>
-                <label for="thoughts">Suggestion for more changes/features:</label>
+                <div class="cm">
+                    <form>
+                        <fieldset>
+                          <legend>Choose preferred date for next meeting</legend>
+                      
+                          <input type="radio" id="mon" name="day">
+                          <label for="mon">Monday</label><br/>
+                      
+                          <input type="radio" id="tue" name="day">
+                          <label for="tue">Tuesday</label><br/>
+                      
+                          <input type="radio" id="wed" name="day">
+                          <label for="wed">Wednesday</label>
+                        </fieldset>
+                      </form>
+                </div>
+                <br>
+                <div class="mm">
+                    <label for="thoughts">Suggestion for more changes/features:</label>
 
-                <textarea id="thoughts" name="thoughts" rows="5" cols="33">
-                    The project should include...
-                </textarea>
-                <label for="language-choice">Choose a language for this project:</label>
-                <input list="languages" id="language-choice" name="language-choice" />
+                    <textarea id="thoughts" name="thoughts" rows="5" cols="33">
+                        The project should include...
+                    </textarea>
+                </div>
+                <br>
+                <div class="vw">
+                    <label for="language-choice">Choose a language for this project:</label>
+                    <input list="languages" id="language-choice" name="language-choice" />
+                    <datalist id="languages">
+                        <option value="Java">
+                        <option value="Scratch">
+                        <option value="Python">
+                    </datalist>
+                </div>
+                <br>
+                <div class="em">
+                    <label for="comp-choice">Choose a compiler:</label>
 
-                <datalist id="languages">
-                    <option value="Java">
-                    <option value="Scratch">
-                    <option value="Python">
-                </datalist>
-                <label for="comp-choice">Choose a compiler:</label>
-
-                <select name="compilers" id="comp-choice">
-                    <option value="">--Please choose an option--</option>
-                    <option value="ecl">Eclipse</option>
-                    <option value="idea">IntelliJ</option>
-                    <option value="py">PyCharm</option>
-                    <option value="vim">Vim</option>
-                </select>
-                <button class="rage-button"
+                    <select name="compilers" id="comp-choice">
+                        <option value="">--Please choose an option--</option>
+                        <option value="ecl">Eclipse</option>
+                        <option value="idea">IntelliJ</option>
+                        <option value="py">PyCharm</option>
+                        <option value="vim">Vim</option>
+                    </select>
+                </div>
+                <br>
+                <div class="vh">
+                    <button class="rage-button"
                     type="button">
                     Click if you're mad at intern
                 </button>
+                </div>
+                <br>
                 <video controls width="250">
 
                     <source src="/media/cc0-videos/flower.webm"
@@ -144,6 +160,7 @@
                 </figure>
                 
             </div>
+                  
 
         </main>
         
